@@ -15,9 +15,14 @@ body {
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
+  align-content: center;
+  height: auto;
+  border: normal;
+  border-radius: 5px;
+  border-color: #262626;
 }
 
 
@@ -135,6 +140,41 @@ body {
     font-size: 11px
   }
 }
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 
 #navbar {
   overflow: hidden;
@@ -176,3 +216,4 @@ body {
 	border-radius: 5px;
 	border-color: #262626;
 }
+>>>>>>> 5d07e8756a26fb1236c56410fb61accebeb8465d
