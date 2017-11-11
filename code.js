@@ -29,4 +29,15 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-setInterval("plusSlides(1)", 15000)
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+setInterval("plusSlides(1)", 15000);
