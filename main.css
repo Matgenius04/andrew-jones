@@ -136,3 +136,10 @@ body {
   }
 }
 
+.image {
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+	border: #373737;
+	border-radius: 5px;
+}
