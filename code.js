@@ -39,5 +39,5 @@ function navBarSticky() {
     navbar.classList.remove("sticky");
   }
 }
-setInterval("navBarSticky();", 33)
+setInterval("navBarSticky();", 33);
 setInterval("plusSlides(1)", 15000);
