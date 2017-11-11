@@ -32,12 +32,12 @@ function showSlides(n) {
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function navBarSticky() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
   }
 }
-
+setInterval("navBarSticky();", 33)
 setInterval("plusSlides(1)", 15000);
