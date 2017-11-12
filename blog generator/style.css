@@ -1,0 +1,26 @@
+.blogpostdivider {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 5px solid #272727;
+  margin: 2em 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 36px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.normal-text {
+  font-size: 14px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+date {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
