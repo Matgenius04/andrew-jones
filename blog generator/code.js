@@ -8,5 +8,6 @@ function generate() {
   var doot = "<h2 class='heading'>"+title+"</h2> \
   <date class='date'>"+date+"</date> \
   <p class='normal-text'>"+text+"</p>";
+  document.createElement('p').innerHTML = 
   return doot;
 }
