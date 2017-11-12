@@ -1,3 +1,5 @@
+//random comma
+
 window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);
 function scrollWin(x, y) {
     window.scrollBy(x, y);
