@@ -42,11 +42,10 @@ function navBarSticky() {
 setInterval("navBarSticky();", 33);
 setInterval("plusSlides(1)", 15000);
 document.querySelector('#layer1').addEventListener('click', function (e) {
-document.querySelector('.down-arrow-click').addEventListener('click', function (e) {
   e.preventDefault();
   window.scrollBy({
     top: window.innerHeight,
     left: 0,
     behavior: 'smooth'
   });
-})});
+});
