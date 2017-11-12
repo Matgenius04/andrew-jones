@@ -41,11 +41,8 @@ function navBarSticky() {
 }
 setInterval("navBarSticky();", 33);
 setInterval("plusSlides(1)", 15000);
-<<<<<<< HEAD
 document.querySelector('#layer1').addEventListener('click', function (e) {
-=======
 document.querySelector('.down-arrow-click').addEventListener('click', function (e) {
->>>>>>> ddd8f14004ece31bc30037a7616b855ab2d3ce9d
   e.preventDefault();
   window.scrollBy({
     top: 200,
