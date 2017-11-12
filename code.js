@@ -1,55 +1,3 @@
-window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -93,3 +41,7 @@ function navBarSticky() {
 }
 setInterval("navBarSticky();", 33);
 setInterval("plusSlides(1)", 15000);
+      document.querySelector('.down-arrow-scroll').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollBy({ top: 200, left: 0, behavior: 'smooth' });
+      });
