@@ -1,4 +1,56 @@
-var slideIndex = 1;
+window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);window.scrollTo(500, 0);<script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script><script>
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+}
+</script>var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
