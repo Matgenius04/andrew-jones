@@ -45,7 +45,7 @@ document.querySelector('#layer1').addEventListener('click', function (e) {
 document.querySelector('.down-arrow-click').addEventListener('click', function (e) {
   e.preventDefault();
   window.scrollBy({
-    top: 200,
+    top: window.innerHeight,
     left: 0,
     behavior: 'smooth'
   });
