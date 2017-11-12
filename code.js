@@ -41,7 +41,7 @@ function navBarSticky() {
 }
 setInterval("navBarSticky();", 33);
 setInterval("plusSlides(1)", 15000);
-document.querySelector('.down-arrow-click').addEventListener('click', function (e) {
+document.querySelector('.down-arrow-scroll').addEventListener('click', function (e) {
   e.preventDefault();
   window.scrollBy({
     top: 200,
