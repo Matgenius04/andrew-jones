@@ -1,14 +1,12 @@
 var title;
 var text;
-var date = new date();
-var dateObj = {
-  day = date.getDate();
-  month = date.getMonth();
-  year = getFullYear();
-}
-
-var months = ["jan", 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sept', 'oct', 'nov', 'dec'];
-
+var date = new Date();
+date = date.getMonth()+'/'+date.getDate()+'/'+date.getFullYear();
 function generate() {
-
+  title = document.getElementById('title');
+  text = document.getElementById('text');
+  var doot = "<h2 class='heading'>"+title+"</h2> \
+  <date class='date'>"+date+"</date> \
+  <p class='normal-text'>"+text+"</p>";
+  return doot;
 }
