@@ -147,7 +147,6 @@ body {
     font-size: 11px
   }
 }
-/
 @media only screen and (max-height: 500px) {
   .image,
   .slideshow-container {
@@ -223,4 +222,9 @@ body {
 .image {
 	height: 100vh;
 	width: auto;
+}
+
+.imageOverlay {
+	width:200px;
+	height:225px
 }
